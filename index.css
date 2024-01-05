@@ -6,6 +6,7 @@
     #6d6afe 0.12%,
     #6ae3fe 101.84%
   );
+  --Linkbrary-primary-color: #6d6afe;
 }
 * {
   box-sizing: border-box;
@@ -49,12 +50,20 @@ nav {
   font-weight: 600;
   line-height: normal;
 }
+.Frame {
+  display: flex;
+  align-items: center;
+  gap: 157px;
+}
 /* content01 */
-#contnets-01 {
+#contents-01 {
   padding: 70px 360px 0px 360px;
   background-color: #f0f6ff;
+  display: flex;
+  justify-content: center;
 }
 #wrapper-01 {
+  width: 1200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -81,7 +90,7 @@ nav {
 }
 .con01-link {
   width: 350px;
-  height: 22px;
+  height: 54px;
   padding: 16px 20px;
   border-radius: 8px;
   display: flex;
@@ -108,4 +117,314 @@ nav {
     #f0f6ff 94.76%
   );
   box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+}
+/* content02 */
+#contents-02 {
+  display: flex;
+  padding: 120px 461px 50px 461px;
+  justify-content: center;
+  align-items: center;
+}
+.con2-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 157px;
+}
+.con2-left {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.left-top {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.left-top > span {
+  background: linear-gradient(96deg, #fe8a8a 1.72%, #a4ceff 74.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.left-bottom {
+  color: #6b6b6b;
+  font-family: Abel;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.con2-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 550px;
+  height: 450px;
+  border-radius: 15px;
+  background: #f0f6ff;
+  overflow: hidden;
+}
+.right-middle {
+  width: 823px;
+  height: 275px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.right-img {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 239px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  border: 2px solid var(--Linkbrary-primary-color);
+}
+.right-img img {
+  display: block;
+  width: 288px;
+}
+/* content03 */
+#contents-03 {
+  display: flex;
+  padding: 50px 461px;
+  justify-content: center;
+  align-items: center;
+}
+.con3-left {
+  display: flex;
+  width: 550px;
+  padding: 114px 68px 66px 68px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background: #f0f6ff;
+}
+.con3-left > div {
+  background-image: url("https://s3-alpha-sig.figma.com/img/169f/c357/d8b9be5bafee36b14292379248107bfd?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CJzLk61KbaHpVsWwWC5~c-oePIY5kwFtJa0rNFZVp1pShmavUA0Sc5-uOzyaApXy9cuE1KXw~KA~E8YIrHYp3nH4jDZXp~lIQ-4v1Kv4oiLYdml-a6WKhseENpG38r-pzFPI0JG4AeM6qShtatl44Nz~M12npzNJh3ssnpdhTOvubtmO4Mbv8NFEauDnHZoPy2hN11WWNcACKHs~H96yVX9ikhNAYn6yUzXdutj8COJPxsDLquurgoQiCIeFEpU2cDydDz-1FizPl5R8ZKE4FEdg2o83-9Num1w2cXOnem0tqc79BXp9QRAznxQkPiLcMe2eFpeWM22ZKT8hGFhW1A__");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 414px;
+  height: 270px;
+}
+.con3-right {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.c3rtop {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.c3rtop > span {
+  background-image: linear-gradient(277deg, #6fbaff 59.22%, #ffd88b 93.66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.c3rbottom {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+/* content04 */
+#contents-04 {
+  display: flex;
+  padding: 50px 461px;
+  justify-content: center;
+  align-items: center;
+}
+.con4-left {
+  width: 291px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.c4ltop {
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.c4ltop > span {
+  background-image: linear-gradient(
+    99deg,
+    #6d7ccd 19.76%,
+    rgba(82, 136, 133, 0.22) 52.69%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.c4lbottom {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.con4-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 570px;
+  height: 469px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://s3-alpha-sig.figma.com/img/2080/5edd/4edb32d644767d750d576d9e6c790df2?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BqGZc9UNt8oaBlpKF~s0aAtiFTIt~BFVvt0sZhM2E1yAp6IKFxNJ2JhZOAJZWN1ckpBG5Bh4nmxXdyD0aGUB93JByxhvD12PkyGIp8D5MftpPbl963suLX5bZ-4nEKEhcW1XqBqE-RAAmune4exXrsvO0R7YrdKNNLa3FZYZPmeYo3TMzcNQTTBGPmo075QgUY3MvW09HZZRKNQSIY9uYv6oEuH-EORuDCiYAnplikfEhnipG8WoSM4YhQxH8oGAzKbW~6wEwC4W3KpKVABU2PpmeVe0mgSFsJRUSh4DznRjUKw2Tb-Jp2Z4tl5wHuG1z3Ksnw3YWMGnTPzVw~W8Fw__");
+
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+}
+.con4-right-center {
+  width: 416px;
+  height: 271px;
+  flex-shrink: 0;
+  background-image: url("https://s3-alpha-sig.figma.com/img/acc1/c137/e4c7c24a1de11d2c66e956a2f5e51b60?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VaNhFdAFToO6jArnI95Tg247Nwbl5ftPK5uGPo1l6Ivw8GC0EuGDLAoxRb6r9kNAQuecZZXGv9kZW-PaF3cT2OOvs7~mHyPI2uvjssSngxOu0hkFao-22gVGOst8EsY8Qvq~ir7G9xOBt3arRW3aBKhIWj6jjAxzKve06Zm9~mco91OcIGOztEGkCWTMiPLAQdxW7dbPU40Vv~zUmvHoyps4OikHv8CfV4UAvO4zj0J-ib7TOFH5ks3Ar~EpLrzF1igAkYP0osY64YZeonPnUTJUOHUuaX6LEH~RgRHBNv0EUTKg1~UWFkFmxHbo0molSF5g5NfIdOgq8flOt8PurA__");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* contents-5 */
+#contents-05 {
+  display: flex;
+  padding: 50px 461px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.con5-left {
+  width: 550px;
+  height: 450px;
+  border-radius: 15px;
+  background-color: #f0f6ff;
+  overflow: hidden;
+  padding-top: 55px;
+  padding-left: 60px;
+}
+.c5limg {
+  width: 619px;
+  height: 584px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: url("https://s3-alpha-sig.figma.com/img/7a0c/dfbc/968f67f18c20cfb14b1e2e3ad8a3f125?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BpABo4JNNjaUB905pxI9xzGetdaxHwofqvQg6taonnE2cHl6yCBz1ccaUqPmrxP50vFNQ9uwljOM4qvmirArm5B--BWLnt6BDJ9G1RQFWajb2hYtCb3SSrvnUopTayDljd0SbOYfZxlQedVHfNc3ibEC0P~eE8crmf3oLl501QuqIGz-YVrVSgSuBU6jiBOkb8GS4F~4DbwQYV~Ybducu0z1kyJLElHMMzf2xeTonVEDVpaiUssUhF2ZHcav1ThCPAKcjf7PEIHAOWtNadzVVreiBQm1QK3GbNwzuMqT3OElzB5qaWaVnZlvHI1lDETWhH7L21JHktBPgVrlOvp~tA__");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.08);
+}
+.con5-right {
+  display: flex;
+  width: 291px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.c5rtop {
+  color: #000;
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.3px;
+}
+.c5rtop span {
+  background: var(
+    --Fandom-K-gra-blue-to-pink,
+    linear-gradient(271deg, #fe578f -9.84%, #68e8f9 107.18%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.c5rbottom {
+  color: #6b6b6b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+/* footer */
+footer {
+  display: flex;
+  height: 160px;
+  padding: 32px 104px 64px 104px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: var(--The-julge-black, #111322);
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.footfirst {
+  color: #676767;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footsecond {
+  display: flex;
+  width: 181.111px;
+  align-items: flex-start;
+  gap: 30px;
+  color: #cfcfcf;
+}
+.footIcons {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  color: #ffffff;
+}
+.footIcon > img {
+  width: 20px;
+  height: 20px;
 }
